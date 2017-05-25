@@ -1,0 +1,7 @@
+.my-form{
+    border: 1px solid black;
+}
+
+.form-field--has-errors{
+    color: red;
+}

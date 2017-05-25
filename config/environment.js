@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   var ENV = {
+    'ember-form-for': {
+      errorsPath: 'error.PROPERTY_NAME.validation',
+    },
     modulePrefix: 'ember-forms',
     environment: environment,
     rootURL: '/',
